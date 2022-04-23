@@ -1,0 +1,46 @@
+/* BREAK POINT */
+/* PC */
+@media (min-width: 1024px){
+    #product .product-box{
+        height: 100%;
+    }
+    #services .services-content{
+        height: 100%;
+    }
+
+}
+/* Tablet and mobile */
+@media (max-width: 1023px){
+    #services .promote .promote-btn{
+        display: block;
+        max-width: fit-content;
+    }
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #product .product-box{
+        margin-top: 24px;
+    }
+    #product h2{
+        margin-bottom: 0px;
+    }
+
+}
+/* Mobile */
+@media (max-width: 739px){
+    
+    .promote-content{
+        text-align: center;
+    }
+    .contact-map{
+        margin-bottom: 40px;
+    }
+    .contact-content p:nth-of-type(2){
+        margin-bottom: 40px;
+    }
+    #footer h4{
+        margin-bottom: 0px;
+    }
+
+}
+    
