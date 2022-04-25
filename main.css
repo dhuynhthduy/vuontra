@@ -28,7 +28,7 @@
     border-left: 4px solid #0a763d;
 }
 #header .logo img{
-    /* max-height: 60px; */
+    max-height: 50px;
 }
 #header .search-input{
     margin-right: 4px;
