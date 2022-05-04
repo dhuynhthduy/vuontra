@@ -11,7 +11,7 @@
   
 /* Header */
 
-#header.header-light{
+#header.header-color{
     background-color: #f0f7ec;
 }
 
@@ -29,6 +29,7 @@
 }
 #header .logo img{
     max-height: 50px;
+    margin-right: 8px;
 }
 #header .search-input{
     margin-right: 4px;
@@ -49,6 +50,16 @@
     background-color: #fff;
     color: #0a763d;
     border: 1px solid #0a763d;
+}
+#header .button-toggle{
+    padding: 4px 12px;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #f0f7ec;
+}
+#header .button-toggle{
+    padding: 4px 12px;
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
 }
 /* Section */
 #hero .search-btn{
@@ -71,6 +82,7 @@
     height: 4rem;
     vertical-align: text-bottom;
 }
+
 
 /* Feature */
 #featured-services .feature-icon{

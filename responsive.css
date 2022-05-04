@@ -17,6 +17,15 @@
     }
 
 /* Tablet */
+@media (max-width: 991px){
+    #header  li a{
+        padding: 16px 0;
+        text-align: center;
+    }
+    #header form input{
+        width: 100%;
+    }
+}
 @media (min-width: 740px) and (max-width: 1023px){
     #product .product-box{
         margin-top: 24px;
@@ -28,9 +37,15 @@
 }
 /* Mobile */
 @media (max-width: 739px){
-    
+    #header form{
+        display: none;
+    }
     .promote-content{
         text-align: center;
+    }
+    #contact .form-input{
+        width: 100%;
+        padding: 8px 8px;
     }
     .contact-map{
         margin-bottom: 40px;
@@ -41,6 +56,4 @@
     #footer h4{
         margin-bottom: 0px;
     }
-
 }
-    
