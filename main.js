@@ -3,9 +3,9 @@ function collapse(e) {
     e.classList.toggle("collapse-Show");
 }
 
-var navbarMenu = document.getElementById("navbar")
-// var showNavbar = document.querySelector("#header show")
-console.log(navbarMenu)
+// var navbarMenu = document.getElementById("navbar")
+// // var showNavbar = document.querySelector("#header show")
+// console.log(navbarMenu)
 
 var aItems = document.querySelectorAll('#header ul li a')
 

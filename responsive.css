@@ -53,6 +53,18 @@
     .contact-content p:nth-of-type(2){
         margin-bottom: 40px;
     }
+    #about .statistic .statistic-desc{
+        text-align: center;
+    }
+    #about .statistic .statistic-box{
+        height: 142px;
+    }
+    #services .promote{
+        padding: 30px;
+    }
+    #services .promote .promote-btn{
+       max-width: 100%;
+    }
     #footer h4{
         margin-bottom: 0px;
     }
